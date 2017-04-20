@@ -4,9 +4,9 @@
 
 回调代码:
 
-animatedPageControl.clickBGViewButtonBlock = ^(NSInteger index) {
+<br>animatedPageControl.clickBGViewButtonBlock = ^(NSInteger index) {
 	NSLog(@"current:%tu",index);
-};
+};\<br>  
 
 利用贝塞尔曲线实线其效果
 具体效果如下:
