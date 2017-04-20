@@ -2,11 +2,12 @@
 粘性指示器
 
 
-回调代码:\n
-	animatedPageControl.clickBGViewButtonBlock = ^(NSInteger index) {
-		NSLog(@"current:%tu",index);
-	};
-\n
+回调代码:
+
+animatedPageControl.clickBGViewButtonBlock = ^(NSInteger index) {
+	NSLog(@"current:%tu",index);
+};
+
 利用贝塞尔曲线实线其效果
 具体效果如下:
 ![image](https://github.com/rui4u/AnimatedPageControl/blob/master/SRAnimatedPageControlTests/screenshots/2017-04-20%2011_05_48.gif)
