@@ -59,7 +59,6 @@ static  NSString  * const collectionViewCellID = @"collectionViewCellID";
  	CollectionViewCell *democell = [collectionView
 									  dequeueReusableCellWithReuseIdentifier:collectionViewCellID
 									  forIndexPath:indexPath];
-	democell.backgroundColor = [UIColor blueColor];
 	democell.labelText.text = [NSString stringWithFormat:@"%tu",indexPath.item];
 	
 	return democell;
