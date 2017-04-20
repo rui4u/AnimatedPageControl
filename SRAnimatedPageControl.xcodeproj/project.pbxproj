@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B609DA71EA7114E00272CAD /* BackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B609DA21EA7114E00272CAD /* BackGroundView.m */; };
+		2B5081021EA854AB00C26AB5 /* SRCoverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5080F91EA854AB00C26AB5 /* SRCoverLayer.m */; };
+		2B5081031EA854AB00C26AB5 /* BackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5080FC1EA854AB00C26AB5 /* BackGroundView.m */; };
+		2B5081041EA854AB00C26AB5 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5080FF1EA854AB00C26AB5 /* CollectionViewCell.m */; };
+		2B5081051EA854AB00C26AB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5081011EA854AB00C26AB5 /* ViewController.m */; };
 		2B609DA81EA7114E00272CAD /* SRAnimatedPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B609DA41EA7114E00272CAD /* SRAnimatedPageControl.m */; };
-		2B609DA91EA7114E00272CAD /* SRCoverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B609DA61EA7114E00272CAD /* SRCoverLayer.m */; };
 		2B729A181EA5B8E400F26B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B729A171EA5B8E400F26B5B /* main.m */; };
 		2B729A1B1EA5B8E400F26B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B729A1A1EA5B8E400F26B5B /* AppDelegate.m */; };
-		2B729A1E1EA5B8E400F26B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B729A1D1EA5B8E400F26B5B /* ViewController.m */; };
 		2B729A211EA5B8E400F26B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B729A1F1EA5B8E400F26B5B /* Main.storyboard */; };
 		2B729A241EA5B8E400F26B5B /* SRAnimatedPageControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B729A221EA5B8E400F26B5B /* SRAnimatedPageControl.xcdatamodeld */; };
 		2B729A261EA5B8E400F26B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B729A251EA5B8E400F26B5B /* Assets.xcassets */; };
 		2B729A291EA5B8E400F26B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B729A271EA5B8E400F26B5B /* LaunchScreen.storyboard */; };
 		2B729A341EA5B8E500F26B5B /* SRAnimatedPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B729A331EA5B8E500F26B5B /* SRAnimatedPageControlTests.m */; };
 		2B729A3F1EA5B8E500F26B5B /* SRAnimatedPageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B729A3E1EA5B8E500F26B5B /* SRAnimatedPageControlUITests.m */; };
-		2B8854D31EA84AF50012CB79 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8854D21EA84AF50012CB79 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,18 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B609DA11EA7114E00272CAD /* BackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackGroundView.h; sourceTree = "<group>"; };
-		2B609DA21EA7114E00272CAD /* BackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackGroundView.m; sourceTree = "<group>"; };
+		2B5080F81EA854AB00C26AB5 /* SRCoverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCoverLayer.h; sourceTree = "<group>"; };
+		2B5080F91EA854AB00C26AB5 /* SRCoverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCoverLayer.m; sourceTree = "<group>"; };
+		2B5080FB1EA854AB00C26AB5 /* BackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackGroundView.h; sourceTree = "<group>"; };
+		2B5080FC1EA854AB00C26AB5 /* BackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackGroundView.m; sourceTree = "<group>"; };
+		2B5080FE1EA854AB00C26AB5 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2B5080FF1EA854AB00C26AB5 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		2B5081001EA854AB00C26AB5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B5081011EA854AB00C26AB5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B609DA31EA7114E00272CAD /* SRAnimatedPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAnimatedPageControl.h; sourceTree = "<group>"; };
 		2B609DA41EA7114E00272CAD /* SRAnimatedPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAnimatedPageControl.m; sourceTree = "<group>"; };
-		2B609DA51EA7114E00272CAD /* SRCoverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCoverLayer.h; sourceTree = "<group>"; };
-		2B609DA61EA7114E00272CAD /* SRCoverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCoverLayer.m; sourceTree = "<group>"; };
 		2B729A131EA5B8E400F26B5B /* SRAnimatedPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRAnimatedPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B729A171EA5B8E400F26B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B729A191EA5B8E400F26B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B729A1A1EA5B8E400F26B5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B729A1C1EA5B8E400F26B5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B729A1D1EA5B8E400F26B5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B729A201EA5B8E400F26B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B729A231EA5B8E400F26B5B /* SRAnimatedPageControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SRAnimatedPageControl.xcdatamodel; sourceTree = "<group>"; };
 		2B729A251EA5B8E400F26B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,8 +65,6 @@
 		2B729A3A1EA5B8E500F26B5B /* SRAnimatedPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRAnimatedPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B729A3E1EA5B8E500F26B5B /* SRAnimatedPageControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAnimatedPageControlUITests.m; sourceTree = "<group>"; };
 		2B729A401EA5B8E500F26B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B8854D11EA84AF50012CB79 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		2B8854D21EA84AF50012CB79 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5080F71EA854AB00C26AB5 /* CoverLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2B5080F81EA854AB00C26AB5 /* SRCoverLayer.h */,
+				2B5080F91EA854AB00C26AB5 /* SRCoverLayer.m */,
+			);
+			path = CoverLayer;
+			sourceTree = "<group>";
+		};
+		2B5080FA1EA854AB00C26AB5 /* BackGroundView */ = {
+			isa = PBXGroup;
+			children = (
+				2B5080FB1EA854AB00C26AB5 /* BackGroundView.h */,
+				2B5080FC1EA854AB00C26AB5 /* BackGroundView.m */,
+			);
+			path = BackGroundView;
+			sourceTree = "<group>";
+		};
+		2B5080FD1EA854AB00C26AB5 /* DemoViwController */ = {
+			isa = PBXGroup;
+			children = (
+				2B5080FE1EA854AB00C26AB5 /* CollectionViewCell.h */,
+				2B5080FF1EA854AB00C26AB5 /* CollectionViewCell.m */,
+				2B5081001EA854AB00C26AB5 /* ViewController.h */,
+				2B5081011EA854AB00C26AB5 /* ViewController.m */,
+			);
+			path = DemoViwController;
+			sourceTree = "<group>";
+		};
 		2B729A0A1EA5B8E400F26B5B = {
 			isa = PBXGroup;
 			children = (
@@ -115,18 +144,13 @@
 		2B729A151EA5B8E400F26B5B /* SRAnimatedPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				2B5080F71EA854AB00C26AB5 /* CoverLayer */,
+				2B5080FA1EA854AB00C26AB5 /* BackGroundView */,
+				2B5080FD1EA854AB00C26AB5 /* DemoViwController */,
 				2B729A191EA5B8E400F26B5B /* AppDelegate.h */,
 				2B729A1A1EA5B8E400F26B5B /* AppDelegate.m */,
-				2B729A1C1EA5B8E400F26B5B /* ViewController.h */,
-				2B729A1D1EA5B8E400F26B5B /* ViewController.m */,
-				2B8854D11EA84AF50012CB79 /* CollectionViewCell.h */,
-				2B8854D21EA84AF50012CB79 /* CollectionViewCell.m */,
-				2B609DA11EA7114E00272CAD /* BackGroundView.h */,
-				2B609DA21EA7114E00272CAD /* BackGroundView.m */,
 				2B609DA31EA7114E00272CAD /* SRAnimatedPageControl.h */,
 				2B609DA41EA7114E00272CAD /* SRAnimatedPageControl.m */,
-				2B609DA51EA7114E00272CAD /* SRCoverLayer.h */,
-				2B609DA61EA7114E00272CAD /* SRCoverLayer.m */,
 				2B729A1F1EA5B8E400F26B5B /* Main.storyboard */,
 				2B729A251EA5B8E400F26B5B /* Assets.xcassets */,
 				2B729A271EA5B8E400F26B5B /* LaunchScreen.storyboard */,
@@ -296,14 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5081031EA854AB00C26AB5 /* BackGroundView.m in Sources */,
 				2B729A241EA5B8E400F26B5B /* SRAnimatedPageControl.xcdatamodeld in Sources */,
-				2B729A1E1EA5B8E400F26B5B /* ViewController.m in Sources */,
+				2B5081051EA854AB00C26AB5 /* ViewController.m in Sources */,
 				2B609DA81EA7114E00272CAD /* SRAnimatedPageControl.m in Sources */,
-				2B609DA91EA7114E00272CAD /* SRCoverLayer.m in Sources */,
-				2B609DA71EA7114E00272CAD /* BackGroundView.m in Sources */,
 				2B729A1B1EA5B8E400F26B5B /* AppDelegate.m in Sources */,
-				2B8854D31EA84AF50012CB79 /* CollectionViewCell.m in Sources */,
 				2B729A181EA5B8E400F26B5B /* main.m in Sources */,
+				2B5081041EA854AB00C26AB5 /* CollectionViewCell.m in Sources */,
+				2B5081021EA854AB00C26AB5 /* SRCoverLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
